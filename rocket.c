@@ -5,6 +5,10 @@
  *
  */
 
+#ifdef _WIN32
+   #error "This program is only targeted at Linux systems"
+#endif
+
 #include <stdio.h>
 #include <unistd.h> // for usleep function
 
