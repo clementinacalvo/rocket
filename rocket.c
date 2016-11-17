@@ -39,7 +39,7 @@ int main()
         printf("\n");                       // jump to bottom of console
 
     printf("%s", rocket);
-
+    printf("Welcome to out rocket launcher!");
     int j = START_SLEEP_TIME_US;
     for (i = 0; i < MAX_CONSOLE_LINES; i ++) {
         usleep(j);                          // move faster and faster,
